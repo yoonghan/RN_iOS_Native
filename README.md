@@ -61,7 +61,7 @@ override func view() -> UIView! {
 
 }
 ```
-7. Define in Javascript, a custom JS view. Sample JS created is CustomView.js
+7. Define in Javascript, a custom JS view. Sample JS created is CustomView.js. In this part even I do not understand, but the name "CustomView" need to be prefixed with 'RCT'.
 ```javascript
   //File created is named CustomView.js
   import {requireNativeComponent, ViewPropTypes} from 'react-native';
